@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="150AFDD8-FF8F-478B-A451-BB851661EAEE" Version="1.1">
+   <Notes>
+      <Note Width="69.519" FontSize="12" ID="0" Position="664.3,206.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>0.992157 0.572549 0.396078</Fill>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,9</FormatRange>
+         </Formatting>
+         <String>ImageList
+</String>
+         <ConnectedNoteIDs>1</ConnectedNoteIDs>
+      </Note>
+      <Note Width="76.1719" FontSize="12" ID="1" Position="661.9,290.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Fill>0.996078 0.952941 0.388235</Fill>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,9</FormatRange>
+         </Formatting>
+         <String>ImageCard</String>
+         <ConnectedNoteIDs>0, 6</ConnectedNoteIDs>
+      </Note>
+      <Note Width="350.24" FontSize="12" ID="2" Position="215.5,340.7">
+         <Appearance>
+            <Alignment>Center</Alignment>
+            <Border Weight="1" Style="Square"/>
+         </Appearance>
+         <String>Let the ImageCard render itself and its image </String>
+         <ConnectedNoteIDs>3</ConnectedNoteIDs>
+      </Note>
+      <Note Width="350.24" FontSize="12" ID="4" Position="216.7,427.9">
+         <Appearance>
+            <Alignment>Center</Alignment>
+            <Border Weight="1" Style="Square"/>
+         </Appearance>
+         <String>Set the image height on state to get the component rerender</String>
+         <ConnectedNoteIDs>3, 5</ConnectedNoteIDs>
+      </Note>
+      <Note Width="350.24" FontSize="12" ID="3" Position="215.9,386.0">
+         <Appearance>
+            <Alignment>Center</Alignment>
+            <Border Weight="1" Style="Square"/>
+         </Appearance>
+         <String>Reach into the DOM and figure out the height of the image</String>
+         <ConnectedNoteIDs>2, 4</ConnectedNoteIDs>
+      </Note>
+      <Note Width="350.24" FontSize="12" ID="5" Position="217.6,473.0">
+         <Appearance>
+            <Alignment>Center</Alignment>
+            <Border Weight="1" Style="Square"/>
+         </Appearance>
+         <String>When re-rendering, assign a ‘grid-row-end’ to make sure the image takes up the appropriate space</String>
+         <ConnectedNoteIDs>4</ConnectedNoteIDs>
+      </Note>
+   </Notes>
+   <BackgroundShapes>
+      <Shape Width="374.222" Faded="No" Height="190.115" Sticky="No" ID="6" Position="204.6,329.7" Shadow="No">
+         <Appearance>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <ConnectedNoteIDs>1</ConnectedNoteIDs>
+      </Shape>
+   </BackgroundShapes>
+   <NoteStyles>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="8C72FD46-548E-4D07-B0E4-3C2AF328C283" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="AC6D6BF9-4DA4-4C19-88EA-566F059E8A12" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="13668578-94E8-4E0C-8A77-CC648B2C4D21" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="0901E1A8-C87F-4D81-8135-C682936A65DD" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="0942ED0F-A788-432A-B524-0CF4050EF497" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="0E7F4239-8DB7-494C-9FA3-B4D88D21421D" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="B0E81197-8F40-497F-9C18-BF3D41189FBE" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="iso-a4" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>
